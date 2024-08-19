@@ -4,8 +4,8 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # Load the saved scaler and model
-scaler = joblib.load("scaler.pkl")
-model = load_model("model.h5")
+scaler = joblib.load("scaler_sternal_height.pkl")
+model = load_model("model_sternal_height.h5")
 
 # Streamlit app interface
 st.title('Sternal Notch Prediction')
